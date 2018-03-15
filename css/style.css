@@ -1,34 +1,12 @@
 /* ==============================
         Main Element Layout
 ================================= */
-/* header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-}
 
-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-} */
 
 /* ================================
         Heading layout & Styles
 ================================*/
 
-
-.logo {
-        width: inherit;
-}
-
-
-/* #subHeading {
-
-        color: rgb(190, 15, 190);
-        margin-top: 0;
-        margin-bottom: 0;
-} */
 
 
 /*================================
@@ -36,68 +14,21 @@ body {
 ================================*/
 
 
-/* .nav_btn {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-} */
-
-.nav_btn input {
-        background-color: rgb(190, 15, 190);
-}
-
-.nav_btn {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 100px;
-}
-
-.nav_btn /*li a*/ {
-        display: block;
-        margin-top: .4em;
-        margin-bottom: .4em;
-        padding-top: .2em;
-        padding-bottom: .2em;
-        font-size: 18px;
-        text-decoration: none;
-}
-
-
 /* =================================
        Inventory Layout & Styles
    =================================*/
 
-.inventory li {
-        /* padding-top: 2em; */
-        list-style: none;
-        margin-top: 1.5em;
 
-}
-
-.inventory img {
-        /* float: left; */
-        width: 200px;
-        height: 200px;
+.fascinators {
+        color: rgb(190, 15, 190);
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
 }
 
 
 /* ---- Containers/Divs ---- */
 
-/* .flexHeading {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-} */
-
-/* .hatInventory {
-        display: flex;
-        flex-direction: column;
-        margin-top: 2em;
-        margin-left: -1.5em;
-} */
 
 
 /*================================
