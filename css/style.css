@@ -1,13 +1,3 @@
-/* ==============================
-        Main Element Layout
-================================= */
-
-
-/* ================================
-        Heading layout & Styles
-================================*/
-
-
 
 /*================================
    Navigation Layout & Styles
@@ -18,12 +8,31 @@
        Inventory Layout & Styles
    =================================*/
 
+/* ---- h1 element under nav bar ---- */
 
 .fascinators {
-        color: rgb(190, 15, 190);
+        color: rgb(236, 44, 236);
         padding-top: 10px;
         padding-bottom: 20px;
         margin-bottom: 0;
+        font-family: cursive;
+}
+
+/* ---- input styles ---- */
+
+#callNum, 
+#price,
+#cost,
+#profit {
+        border-color: black; 
+}
+
+/* ---- "calculate" button under list item form ---- */
+
+.calcBtn {
+        background-color: rgb(236, 44, 236);
+        border-color: black;
+        margin-top: 5px;
 }
 
 
