@@ -10,7 +10,7 @@
 
 /* ---- h1 element under nav bar ---- */
 
-.fascinators {
+#main-heading {
         color: rgb(236, 44, 236);
         padding-top: 10px;
         padding-bottom: 20px;
@@ -18,14 +18,20 @@
         font-family: cursive;
 }
 
+/* ---- List Inventory Styles ---- */
+
+.mockUp {
+        margin-bottom: 4rem;
+}
+
 /* ---- input styles ---- */
 
-#callNum, 
+/* #callNum, 
 #price,
 #cost,
 #profit {
         border-color: black; 
-}
+} */
 
 /* ---- "calculate" button under list item form ---- */
 

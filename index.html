@@ -13,9 +13,9 @@
   <body>
     <!-- Nav bar made responsive with bootstrap -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <!-- <a class="navbar-brand" href="#"> -->
+        <!-- My logo -->
         <img class="w-25 navbar-brand float-left" src="img/HGtext.png" alt="">
-      <!-- </a> -->
+      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,75 +39,74 @@
 
     <div class="container">
 
-      <h1 class="fascinators text-center">Fascinators</h1>
+      <h1 id="main-heading" class="text-center">Fascinators</h1>
 
       <div class="mt-0">
-        <!-- <h1 class="headline-1"><span class="fascinators">Fascinators:</span></h1> -->
-        <ul class="container-fluid">
-            <li class="row">
-              <!-- <img class="w-sm-50 h-50 col-sm-4" src="img/funHat(THG0384).jpg"> -->
-
+        
+        <ul id="List" class="fascinators container-fluid">
+            <li class="mockUp row">
+              
               <div id="carouselExampleControls" class="carousel slide w-sm-50 h-50 col-sm-4" data-ride="carousel">
-                  <div class="hatImg carousel-inner">
-                    <div class="carousel-item active">
-                      <img id="blah" class="d-block w-100" src="" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="" alt="Fourth slide">
-                    </div>
+                <div class="hatImg carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="" alt="First slide">
                   </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block w-100" src="" alt="Fourth slide">
+                  </div>
+                </div>
+                  <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
                   <a class="carousel-control-next pr-0" href="#carouselExampleControls" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
-                  </a>
+                  </a> -->
+              </div>
+
+
+              <div class="col-sm-8 mt-2">
+                <div class="row mb-lg-2">
+                  <label class="col" for="callNum">ID:</label>
+                  <span class="input-group-text" id="">#</span>
+                  <input class="col" readonly type="text" id="callNum" value="THG0384"></br>
                 </div>
-
-
-                <div class="col-sm-8">
-                  <div class="row mb-lg-2">
-                    <label class="col" for="callNum">ID:</label>
-                    <span class="input-group-text" id="">#</span>
-                    <input class="col" readonly type="text" id="callNum" value="THG0384"></br>
-                  </div>
-                  <div class="row mb-lg-2">
-                    <label class="col" for="price">Retail:</label>
+                <div class="row mb-lg-2">
+                  <label class="col" for="price">Retail:</label>
+                  <span class="input-group-text" id="">$</span>
+                  <input class="col" readonly type="text" id="price" value="600.00"></br>
+                </div>
+                <div class="row mb-lg-2">
+                    <label class="col" for="cost">Costs:</label>
                     <span class="input-group-text" id="">$</span>
-                    <input class="col" readonly type="text" id="price" value="600.00"></br>
-                  </div>
-                  <div class="row mb-lg-2">
-                      <label class="col" for="cost">Costs:</label>
-                      <span class="input-group-text" id="">$</span>
-                      <input class="col" readonly type="text" id="cost" value="162.75"></br>
-                  </div>
-                  <div class="row">
-                      <label class="col" for="profit">Profit margin:</label>
-                      <span class="input-group-text" id="">$</span>
-                      <input class="col" type="text" id="profit" value=""></br>
-                  </div>
-                  <div class="float-right">
-                    <input id="calcBtn" type="button" class="calcBtn" value="Calculate">
-                  </div>
-            
+                    <input class="col" readonly type="text" id="cost" value="162.75"></br>
                 </div>
+                <div class="row">
+                    <label class="col" for="profit">Profit margin:</label>
+                    <span class="input-group-text" id="">$</span>
+                    <input class="col" type="text" id="profit" value=""></br>
+                </div>
+                <div class="float-right">
+                  <input id="calcBtn" type="button" class="calcBtn" value="Calculate">
+                </div>
+          
+              </div>
             </li>
         </ul>
       </div>
     </div>  
 
-    <!-- Optional JavaScript -->
-
+    <!-- My JavaScript -->
     <script src="js/hatarray.js"></script>
     <script src="js/script.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
