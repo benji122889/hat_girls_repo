@@ -6,4 +6,6 @@ const hatArray = [
     ["img/redombrecoque1(THG0241).jpg", 
      "img/redombrecoque2(THG0241).jpg", 
      "img/redombrecoque3(THG0241).jpg"]
+    //  ["blah"],
+    //  ["blah"]
 ];
