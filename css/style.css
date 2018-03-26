@@ -3,6 +3,20 @@
    Navigation Layout & Styles
 ================================*/
 
+/* ---- Navigation Image/Logo ---- */
+
+.navImg {
+        height: 100%;
+        width: 100%;
+}
+
+.hyperlinkImg {
+        padding: 0;
+        margin-right: 20px;
+        width: 25%;
+        float: left;
+}
+
 
 /* =================================
        Inventory Layout & Styles
@@ -33,9 +47,10 @@
         border-color: black; 
 } */
 
-/* ---- "calculate" button under list item form ---- */
+/* ---- "calculate" and "Reset" button under list item form ---- */
 
-.calcBtn {
+.calcBtn,
+.resetBtn {
         background-color: rgb(236, 44, 236);
         border-color: black;
         margin-top: 5px;

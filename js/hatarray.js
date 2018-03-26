@@ -8,4 +8,4 @@ const hatArray = [
      "img/redombrecoque3(THG0241).jpg"]
     //  ["blah"],
     //  ["blah"]
-];
+]
