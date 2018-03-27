@@ -42,29 +42,6 @@ for (k = 0; k < htmlList.length; k += 1) {
 }
 
 
-//     for (k = 0; k < htmlList.length;) {
-//         for (j = 0; j < imgList.length;) {
-            
-//             for (i = 0; i < hatArray.length;) {
-//                  let blah = hatArray[i];
-//                 for (h = 0; h < [i].length; h += 1) {
-//                 let src = imgList[j].src;
-//                 htmlList[k];
-//                 imgList[j].src = hatArray[h];
-//                 if (i < hatArray.length) {
-//                     i += 1;
-//                 }
-//                 if (j < imgList.length) {
-//                     j += 1;  
-//                 }
-//                 if (k < htmlList.length) {
-//                     k += 1;
-//                 }
-//             }
-//         }
-//     }
-// }
-
 
 // click event handler for "calculate" button
 // subtracts total product costs from retail price and presents its value in the "profit margin" input field
