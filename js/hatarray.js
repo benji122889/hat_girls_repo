@@ -4,9 +4,9 @@ const hatArray = [
      "img/curlycoqueright(THG0384).jpg",
      "img/curlycoqueback(THG0384).jpg"],
     ["img/redombrecoque1(THG0241).jpg", 
-     "img/redombrecoque2(THG0241).jpg", 
-     "img/redombrecoque3(THG0241).jpg"],
-    ["pinkfeatherfront(THG0367).png",
-     "pinkfeatherside(THG0367).png",
-     "pinkfeatherclose(THG0367).png"]
+     "img/redombrecoque2(THG0241).jpg"] 
+    //  "img/redombrecoque3(THG0241).jpg"],
+    // ["pinkfeatherfront(THG0367).png",
+    //  "pinkfeatherside(THG0367).png",
+    //  "pinkfeatherclose(THG0367).png"]
 ]
