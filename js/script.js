@@ -30,9 +30,9 @@ function imageIteration() {
             if (j < imgList.length) {
                 j += 1;
             }
-            if (k < htmlList.length) {
-                k += 1;
-            }
+            // if (k < htmlList.length) {
+            //     k += 1;
+            // }
         }
     }
 }
