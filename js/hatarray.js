@@ -6,7 +6,7 @@ const hatArray = [
     ["img/redombrecoque1(THG0241).jpg", 
      "img/redombrecoque2(THG0241).jpg",
      "img/redombrecoque3(THG0241).jpg"],
-    ["pinkfeatherfront(THG0367).png",
-     "pinkfeatherside(THG0367).png",
-     "pinkfeatherclose(THG0367).png"]
+    ["img/pinkfeatherfront(THG0367).jpg",
+     "img/pinkfeatherside(THG0367).jpg",
+     "img/pinkfeatherclose(THG0367).jpg"]
 ]

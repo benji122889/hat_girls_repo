@@ -23,23 +23,47 @@ const htmlList = hatList.children;
 // while at the same time loops through the array of images in file
 // hatarray.js and applies the images to the image carousel in the document.
 
-function imageIteration() {
+function firstCarousel() {
     for (j = 0; j < imgList.length;) {
         for (i = 0; i < hatArray[0].length; i += 1) {
             imgList[j].src = hatArray[0][i];
             if (j < imgList.length) {
                 j += 1;
             }
-            // if (k < htmlList.length) {
-            //     k += 1;
-            // }
         }
     }
 }
 
-for (k = 0; k < htmlList.length; k += 1) {
-    imageIteration(htmlList[k]);
+function secondCarousel() {
+    let divList2 = document.querySelector('div.hatImg2');
+    let imgList2 = divList2.querySelectorAll('img');
+    for (j = 0; j < imgList2.length;) {
+        for (i = 0; i < hatArray[1].length; i += 1) {
+            imgList2[j].src = hatArray[1][i];
+            if (j < imgList2.length) {
+                j += 1;
+            }
+        }
+    }
 }
+
+function thirdCarousel() {
+    let divList3 = document.querySelector('div.hatImg3');
+    let imgList3 = divList3.querySelectorAll('img');
+    for (j = 0; j < imgList3.length;) {
+        for (i = 0; i < hatArray[2].length; i += 1) {
+            imgList3[j].src = hatArray[2][i];
+            if (j < imgList3.length) {
+                j += 1;
+            }
+        }
+    }
+}
+
+    firstCarousel(htmlList[0]);
+    secondCarousel(htmlList[1]);
+    thirdCarousel(htmlList[2]);
+
 
 
 
