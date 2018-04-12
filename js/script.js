@@ -47,8 +47,22 @@ function secondCarousel() {
     }
 }
 
+function thirdCarousel() {
+    let divList3 = document.querySelector('div.hatImg3');
+    let imgList3 = divList3.querySelectorAll('img');
+    for (j = 0; j < imgList3.length;) {
+        for (i = 0; i < hatArray[2].length; i += 1) {
+            imgList3[j].src = hatArray[2][i];
+            if (j < imgList3.length) {
+                j += 1;
+            }
+        }
+    }
+}
+
     firstCarousel(htmlList[0]);
     secondCarousel(htmlList[1]);
+    thirdCarousel(htmlList[2]);
 
 
 
